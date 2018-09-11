@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ComputeChange {
   public static void main(String[] args) {
     //
-    scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     //
     System.out.println("enter an amount  in double:");
     double amount = input.nextDouble();
@@ -20,7 +20,7 @@ public class ComputeChange {
     cents = cents % 5;
     // number of pennies
     int numberOfPennies = cents;
-  System.out.println("your amount"+amount"consist of \n"+
+  System.out.println("your amount"+amount +"consist of \n"+
   "\t"+numberOfDollars +"dollars"+
   "\t"+ numberOfQuarters + "quarters"+
   "\t"+ numberOfDimes + "dimes"+
