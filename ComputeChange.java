@@ -1,10 +1,10 @@
-import java.util.scanner;
+import java.util.Scanner;
 public class ComputeChange {
   public static void main(String[] args) {
     //
-    scanner input = new scanner(system.in);
+    scanner input = new Scanner(System.in);
     //
-    system.out.println("enter an amount  in double:");
+    System.out.println("enter an amount  in double:");
     double amount = input.nextDouble();
     int cents = (int)amount * 100;
     //find the number of dollars
@@ -20,7 +20,7 @@ public class ComputeChange {
     cents = cents % 5;
     // number of pennies
     int numberOfPennies = cents;
-  system.out.println("your amount"+amount"consist of \n"+
+  System.out.println("your amount"+amount"consist of \n"+
   "\t"+numberOfDollars +"dollars"+
   "\t"+ numberOfQuarters + "quarters"+
   "\t"+ numberOfDimes + "dimes"+

@@ -6,10 +6,10 @@ public class ComputeBMI{
     final double METERS_PER_INCH = 0.0254;
     //INCH PULGADAS
 
-  system.out.println("enter weiht in pounds:");
+  System.out.println("enter weiht in pounds:");
   double weight = input.nextDouble();
 
-  system.out.println("enter height in inches:");
+  System.out.println("enter height in inches:");
     double height = input.nextDouble();
     double weightInKilograms = weight * KILOGRAMS_PER_POUND;
     double height
